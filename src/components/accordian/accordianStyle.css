@@ -1,0 +1,10 @@
+.wrapper{
+  background-color: bisque;
+  color: cadetblue;
+  text-align: center;
+  justify-content: center;
+
+}
+.item{
+  border-bottom: 1px solid red;
+}
