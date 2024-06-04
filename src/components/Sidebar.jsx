@@ -8,6 +8,7 @@ const Sidebar = () => {
       <Link to="/Counter">Counter</Link>
       <Link to="/accordian">Accordian</Link>
       <Link to="/random-color">Random Color</Link>
+      <Link to="/star-rating">Ratings</Link>
     </div>
   );
 };
