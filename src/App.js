@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StarRating from './components/star-rating';
+import ImageSlider from './components/image-slider/ImageSlider';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,12 @@ const router = createBrowserRouter([
       {
         path: '/star-rating',
         element: <StarRating />,
+      },
+      {
+        path: '/image-slider',
+        element: (
+          <ImageSlider url={'https://picsum.photos/v2/list?page=1'} limit={5} />
+        ),
       },
     ],
   },
