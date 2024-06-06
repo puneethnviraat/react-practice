@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider/ImageSlider';
+import LoadMoreData from './components/load-more-data';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/star-rating',
         element: <StarRating />,
+      },
+      {
+        path: '/load-more-data',
+        element: <LoadMoreData />,
       },
       {
         path: '/image-slider',
