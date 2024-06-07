@@ -51,8 +51,8 @@ const LoadMoreData = () => {
             {itemlist.map((product) => {
               const { id, title, price, category, description } = product;
               return (
-                <Col className="d-flex">
-                  <Card className="flex-fill productlist" key={id}>
+                <Col className="d-flex" key={id}>
+                  <Card className="flex-fill productlist">
                     <Card.Img
                       height={150}
                       variant="top"

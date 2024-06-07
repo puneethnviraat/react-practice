@@ -10,6 +10,9 @@ const Sidebar = () => {
       <Link to="/random-color">Random Color</Link>
       <Link to="/star-rating">Ratings</Link>
       <Link to="/image-slider">Image Slider</Link>
+      <Link to="/counter">Counter</Link>
+      <Link to="/treeview">Menus</Link>
+      <Link to="/counter-by-reducer">Counter by useReducer</Link>
     </div>
   );
 };

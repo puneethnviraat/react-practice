@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider/ImageSlider';
 import LoadMoreData from './components/load-more-data';
+import Example1 from './components/Example1';
+import Treeview from './components/treeview';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +30,16 @@ const router = createBrowserRouter([
         element: <StarRating />,
       },
       {
+        path: '/counter-by-reducer',
+        element: <Example1 />,
+      },
+      {
         path: '/load-more-data',
         element: <LoadMoreData />,
+      },
+      {
+        path: '/treeview',
+        element: <Treeview />,
       },
       {
         path: '/image-slider',
