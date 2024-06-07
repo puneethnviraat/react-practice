@@ -11,6 +11,7 @@ import LoadMoreData from './components/load-more-data';
 import Example1 from './components/Example1';
 import Treeview from './components/treeview';
 import QRCodeGenerator from './components/qr-code-generator';
+import SwitchTheme from './components/light-dark-mode';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: '/qr-code-generator',
         element: <QRCodeGenerator />,
+      },
+      {
+        path: '/light-dark-mode',
+        element: <SwitchTheme />,
       },
       {
         path: '/image-slider',
