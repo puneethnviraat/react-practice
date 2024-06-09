@@ -13,6 +13,7 @@ const Sidebar = () => {
       <Link to="/counter">Counter</Link>
       <Link to="/treeview">Menus</Link>
       <Link to="/light-dark-mode">Switch theme</Link>
+      <Link to="/scroll-indicator">Scroll indicator</Link>
       <Link to="/qr-code-generator">QR code generator</Link>
       <Link to="/counter-by-reducer">Counter by useReducer</Link>
     </div>
