@@ -13,6 +13,7 @@ import Treeview from './components/treeview';
 import QRCodeGenerator from './components/qr-code-generator';
 import SwitchTheme from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
+import CustomTabs from './components/custom-tabs';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: '/scroll-indicator',
         element: <ScrollIndicator />,
+      },
+      {
+        path: '/custom-tabs',
+        element: <CustomTabs />,
       },
       {
         path: '/light-dark-mode',
