@@ -15,6 +15,7 @@ import SwitchTheme from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from './components/custom-tabs';
 import CustomModal from './components/customModal';
+import Autocomplete from './components/autocomplete';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: '/custom-modal',
         element: <CustomModal />,
+      },
+      {
+        path: '/autocomplete',
+        element: <Autocomplete />,
       },
       {
         path: '/treeview',
