@@ -14,6 +14,7 @@ import QRCodeGenerator from './components/qr-code-generator';
 import SwitchTheme from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from './components/custom-tabs';
+import CustomModal from './components/customModal';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/load-more-data',
         element: <LoadMoreData />,
+      },
+      {
+        path: '/custom-modal',
+        element: <CustomModal />,
       },
       {
         path: '/treeview',

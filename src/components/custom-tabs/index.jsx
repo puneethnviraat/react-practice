@@ -9,7 +9,6 @@ const CustomTabs = () => {
   return (
     <div className="main-container">
       <h1>Custom tabs</h1>
-      return (
       <div className="wrapper">
         <div className="heading">
           {data.map((tabItem, index) => (
@@ -26,7 +25,6 @@ const CustomTabs = () => {
           {data[currenIndex] && data[currenIndex].content}
         </div>
       </div>
-      );
     </div>
   );
 };

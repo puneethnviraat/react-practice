@@ -1,0 +1,31 @@
+.modal-display{
+  background-color: rgba(138, 137, 137, 0.9);
+
+  width: 100vw;
+  height: 100vh;
+  top: 100px;
+  position: fixed;
+}
+.model-content{
+  padding: 25px;
+  margin: 25px;
+  min-height: 70%;
+  min-width: 70%;
+  position: absolute;
+  animation: pulse 3s;
+}
+
+.modal-header button{
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: rgba(255, 64, 54, 0.617);
+  }
+}
