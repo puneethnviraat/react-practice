@@ -11,6 +11,7 @@ const Sidebar = () => {
       <Link to="/star-rating">Ratings</Link>
       <Link to="/image-slider">Image Slider</Link>
       <Link to="/counter">Counter</Link>
+      <Link to="/tic-toc-toe">Tic-Toc_Toe</Link>
       <Link to="/treeview">Menus</Link>
       <Link to="/custom-modal">Custom modal</Link>
       <Link to="/custom-tabs">Custom tabs</Link>

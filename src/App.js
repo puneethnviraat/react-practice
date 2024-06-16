@@ -16,6 +16,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import CustomTabs from './components/custom-tabs';
 import CustomModal from './components/customModal';
 import Autocomplete from './components/autocomplete';
+import TicTocToe from './components/Tic-Toc-Toe';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: '/load-more-data',
         element: <LoadMoreData />,
+      },
+      {
+        path: '/tic-toc-toe',
+        element: <TicTocToe />,
       },
       {
         path: '/custom-modal',
